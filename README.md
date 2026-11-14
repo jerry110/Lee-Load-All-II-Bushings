@@ -2,6 +2,8 @@
 
 > **DISCLAIMER — USE AT YOUR OWN RISK.** Measurements and mass values are estimates and may be inaccurate. All files and information are provided “AS IS.” You are responsible for verifying them and for any use or consequences. No creator or contributor accepts liability except where applicable law does not allow it to be excluded.
 
+Regenerated source files and STL exports for a 200-piece Lee Load-All II bushing set.
+
 ## Disclaimer, no warranties, and assumption of risk
 
 All dimensions, bore measurements, volumes, sand mass estimates, fit assumptions, and other measurements or descriptions in this repository are approximate, may contain errors or omissions, and are not guaranteed to be accurate, complete, or suitable for any purpose. Independently verify all measurements and material behavior before relying on them.
@@ -14,8 +16,6 @@ Some warranties or liabilities cannot be excluded or limited in some jurisdictio
 
 The chart’s mass estimates are based on the sand density constant in `generate_all.py`; they describe the documented sand test material and are not propellant measurements, powder charges, or loading data.
 
-Regenerated source files and STL exports for a 200-piece Lee Load-All II bushing set.
-
 ## Contents
 
 - `lee_bushing.scad` — OpenSCAD source used by the batch generator.
@@ -23,7 +23,6 @@ Regenerated source files and STL exports for a 200-piece Lee Load-All II bushing
 - `generate_all.py` — generates the 200 numbered STL files and CSV chart in `lee_sand_bushings_oem_fit/` (requires the OpenSCAD command-line application).
 - `generate_renders.py` — generates selected preview images from the OpenSCAD source.
 - `lee_sand_bushings_oem_fit/` — the 200 STL exports and `bushing_sand_chart.csv`.
-
 
 ## Regenerate the STL set
 
