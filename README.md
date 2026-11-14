@@ -16,12 +16,20 @@ Some warranties or liabilities cannot be excluded or limited in some jurisdictio
 
 The chart’s mass estimates are based on the sand density constant in `generate_all.py`; they describe the documented sand test material and are not propellant measurements, powder charges, or loading data.
 
+## Estimated sand mass by bore diameter
+
+![Chart of estimated sand mass by bore diameter](docs/estimated-sand-mass-vs-bore.svg)
+
+This visualization plots the CSV estimates for sand only.
+
 ## Contents
 
 - `lee_bushing.scad` — OpenSCAD source used by the batch generator.
 - `lee_bushing_customizer.scad` — Customizer source for parameterized models.
 - `generate_all.py` — generates the 200 numbered STL files and CSV chart in `lee_sand_bushings_oem_fit/` (requires the OpenSCAD command-line application).
 - `generate_renders.py` — generates selected preview images from the OpenSCAD source.
+- `generate_chart.py` — regenerates the SVG chart from the CSV using Python’s standard library.
+- `docs/estimated-sand-mass-vs-bore.svg` — chart embedded above.
 - `lee_sand_bushings_oem_fit/` — the 200 STL exports and `bushing_sand_chart.csv`.
 
 ## Regenerate the STL set
